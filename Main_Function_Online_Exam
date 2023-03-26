@@ -1,0 +1,21 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.*;
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           try
+           {
+        	   login f=new login();
+        	   f.setSize(500,500);
+        	   f.setVisible(true);
+           }
+           catch(Exception e)
+           {
+        	   JOptionPane.showMessageDialog(null,e.getMessage());
+           }
+	}
+
+}
